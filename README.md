@@ -24,6 +24,8 @@
    - Paste the GitHub repository link in the Google form you received after pushing your code.
 
 ---
+![Untitled design](https://github.com/user-attachments/assets/6591a07a-9177-4cc9-b832-ce7e52b49008)
 
+![Untitled design (1)](https://github.com/user-attachments/assets/07633cb9-81cb-4e9c-8072-5d20fcd7e1b0)
 
 
