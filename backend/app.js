@@ -8,7 +8,7 @@ const app = express();
 
 // Set up CORS
 app.use(cors({
-  origin: ['https://deploy.mern.1whq.vercel.app'],
+  origin: ['https://fullstack-assignment-gv45.vercel.app'],
   methods: ['POST', 'GET'],
   credentials: true
 }));
