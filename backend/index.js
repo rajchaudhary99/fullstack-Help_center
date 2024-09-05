@@ -5,7 +5,13 @@ const productRoutes = require('./routes/cards.js')
 
 
 const app = express();
-app.use(cors());
+app.use(cors(
+  {
+  origin:['https://deploy.mern.1whq.vercel.app],
+  method:['POST','GET'],
+  credentials:true
+          }
+));
 app.use(express.json());
 
 const DB='mongodb+srv://rajvardhanchaudhary666:Xq2k7HKxHMyr3qK2@cluster0.aywxj.mongodb.net/Help-Center'
