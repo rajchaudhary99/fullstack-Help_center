@@ -10,7 +10,8 @@ const HelpSections = () => {
 
   useEffect(() => {
 
-    fetch('http://localhost:3001/api/products') 
+    // fetch('http://localhost:3001/api/products') 
+    fetch('https://fullstack-assignment-v34f.vercel.app/api/products') 
       .then(response => response.json())
       .then(data => setProducts(data))
       .catch(error => console.error('Error fetching products:', error));
