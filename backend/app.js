@@ -8,8 +8,8 @@ const app = express();
 
 // Set up CORS
 app.use(cors({
-  origin: ['https://fullstack-assignment-gv45.vercel.app'],
-  methods: ['POST', 'GET'],
+  origin: 'https://fullstact-application.vercel.app', // Replace with the correct origin
+  methods: ['GET', 'POST'],
   credentials: true
 }));
 
